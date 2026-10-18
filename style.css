@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.hero-section {
+    background-image: url(./images/background_.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-repeat: no-repeat;
+
+
+}
+
+.background-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-text1 li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #646059;
+    font-size: 20px;
+}
+
+.nav-text2 li {
+    display: inline-block;
+    color: #656360;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    border: 2px solid #bc9a35;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #bc9a35;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.nav-logo{
+    font-size: 20px;
+}
+
+.hero-text1 {
+    color: #bc9a35;
+    font-size: 18px;
+    margin-top: 300px;
+
+}
+
+.hero-text2 {
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.hero-text3 {
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero-section-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-button {
+    padding: 10px;
+    border: 2px solid #bc9a35;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #bc9a35;
+    font-weight: bold;
+}
+
+.alteration {
+    background-color: #102150;
+    padding: 20px;
+    color: aliceblue;
+    display: flex;
+    margin-top: 20px, 10px;
+    justify-content: space-between;
+
+}
+
+.alt-button1 {
+    border-radius: 6px;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.alt-button2 {
+    border-radius: 6px;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    background-color: #bc9a35;
+    size: 60px;
+}
+h1{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 30px;
+}
+p{
+    color: aliceblue;
+ margin-left: 30px;
+}
+.images{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    
+}
+img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
